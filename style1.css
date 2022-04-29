@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    
+}
+body{
+    background-image: url(img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.paginas{
+    margin-top: 20px;
+    
+    font-size: 30px;
+    
+    text-align: center;
+    color:black;
+    animation-name: paginas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ig{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.fb{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.ig:hover{
+    color: brown;
+}
+.fb:hover{
+    color:brown;
+}
+header{
+    background-image: linear-gradient(to left, rgb(0, 255, 149), rgb(0, 255, 242), rgb(0, 119, 255), blue);
+}
+
+@keyframes paginas{
+    0%{
+        color: blue;
+        font-size: 30px;
+    }
+    25%{
+        color: rgb(42, 81, 165);
+        font-size: impact,;
+        font-size: 25px;
+    }
+    50%{
+        color:rgb(0, 174, 255);
+        font-size: 30px;
+        
+        
+
+    }
+    75%{
+        color: cornflowerblue;
+        font-size: 25px;
+    }
+    100%{
+        color:rgb(80, 255, 188);
+        font-size: 30px;
+        
+    }
+}

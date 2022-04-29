@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/wallpaper-4106667_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+.a-1{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 2px;
+
+}
+.a-2{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 2px;
+    
+}
+
+.a-3{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 2px;
+}
+a:hover{
+    color: lime;
+}
+
+header{
+    background-color: chartreuse;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+
+
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+.contenedora{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(3, 400px);
+    grid-template-areas: 
+    
+    "img-1 img-2 img-7"
+    "img-3 img-4 img-7"
+    "img-5 img-6 img-7"
+    
+    
+    ;
+}
+
+.img-1{
+    grid-area: img-1;
+    background-image: url(img/IMG_20210903_143148.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+
+}
+.img-2{
+    grid-area: img-2;
+    
+    
+    
+    text-align: center;
+    margin-top: 50%;
+}
+
+.img-3{
+    grid-area: img-3;
+    background-image: url(img/IMG_20210903_143434.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+
+}
+.img-4{
+    grid-area: img-4;
+    text-align: center;
+    margin-top: 50%;
+}
+.img-5{
+    grid-area: img-5;
+    background-image: url(img/IMG_20210929_162723.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+
+
+}
+.img-6{
+    grid-area: img-6;
+    text-align: center;
+    margin-top: 50%;
+}
+.img-7{
+    grid-area: img-7;
+    color: white;
+    margin-top: 15px;
+}
+
+input:focus{
+    transform: scale(1.2);
+}
+input{
+    padding: 10px;
+    
+}
+
+.paginas{
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ig{
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.fb{
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.ig:hover{
+    color:aqua
+}
+.fb:hover{
+    color: aqua;
+}
+
